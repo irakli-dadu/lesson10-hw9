@@ -1,0 +1,132 @@
+.logopages {
+    /* margin: 30px auto; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.ul-list {
+    display: flex;
+}
+.lilist {
+    margin-left: 50px;
+}
+.logo-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14;
+    font-weight: bold;
+    color: #fff;
+    /* hover styles------------- */
+    transition: all .4s linear;
+}
+.header1 {
+    position: relative;
+    width: 100%;
+    height: 324px;
+    background-image: url(../images/bgimage.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.a-list {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* hover styles---------------------------------------need */
+}
+.burger-bar {
+    font-size: 30px;
+    color: white;
+
+}
+.burger-div {
+    display: none;
+}
+.titles {
+    width: 177px;
+    top: 45%;
+    left: 14.5%;
+    position: absolute;
+
+}
+.h2title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    color: white;
+}
+.bothspan {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+.fa-hand {
+    font-size: 15px;
+    color: aquamarine;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.spisp {
+    padding-top: 15px;
+}
+/* ---------------SECTION TWO STARTS----------------- */
+.iframe-map {
+    max-width: 1088px;
+    width: 100%;
+    height: 286px;
+}
+.googlemap {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* ----------------contact us section STARTS------------------ */
+.cnt-div {
+    max-width: 1088px;
+    width: 100%;
+    margin: 56px auto;
+}
+.smalltitle {
+    font-size: 14px;
+    color: #5863F8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.bigtitle {
+    width: 378px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    color: black;
+    font-weight: 800;
+}
+/* pseudooos training---------- and hovers------starts */
+.bigtitle::first-letter {
+    font-family: 'Fascinate', cursive;
+    color: red;
+}
+.a-list {
+    position: relative;
+    transition: all .3s ease-out;
+}
+.a-list::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background-color:cyan;
+    width: 0%;
+    transition: all .3s ease-out;
+}
+.a-list:hover::after {
+    width: 100%;
+}
+.a-list:hover {
+    color: darkkhaki;
+}
+.logo-title:hover {
+    color: lightgreen;
+}
+/* pseudooos training---------- and hovers------ends */
